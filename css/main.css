@@ -1,0 +1,37 @@
+body{
+  background-image: url('http://www.impulsonegocios.com/resources/original//IN_2015/-norberto20152/0000futbol150415.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header, footer{
+  background-color: #34b92a;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.myfooter{
+  color: #000;
+  text-align: justify;
+}
+
+.navbar{
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.contenido{
+  padding-top: 170px;
+}
+
+.titulo{
+  color: #000;
+  font-family: 'Arial', serif;
+  font-size: 20px;
+}
+
+.iconos{
+  padding-top: 27px;
+}

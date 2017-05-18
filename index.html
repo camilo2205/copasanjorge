@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Copa San Jorge</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Plugin de Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Header -->
+    <header class="navbar-fixed-top">
+
+        <!-- Encabezado -->
+        <div id="encabezado" class="container">
+          <div class="row">
+            <div class="titulo col-xs-12 col-sm-8">
+              <h1>Copa San Jorge</h1>
+              <h5>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la"</h5>
+            </div>
+            <div class="collapse navbar-collapse iconos col-sm-offset-1 col-sm-3">
+              <a href="#"><img src="http://www.freeiconspng.com/uploads/facebook-logo-3.png" width="50px" height="50px" alt=""></a>
+              <a href="#"><img src="http://www.freeiconspng.com/uploads/twitter-icon--pretty-social-media-iconset--custom-icon-design-29.png" width="50px" height="50px" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Cambiar Navegacion</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="titulo collapse navbar-collapse navbar-ex1-collapse col-xs-offset-3">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Últimas noticias</a></li>
+              <li><a href="#">Partidos</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Equipos <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">La Apartada</a></li>
+                  <li><a href="#">Montelibano</a></li>
+                  <li><a href="#">Ayapel</a></li>
+                  <li><a href="#">Buenavista</a></li>
+                  <li><a href="#">San Marcos</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Historia</a></li>
+              <li><a href="#">Sobre</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+    <!-- Contenido -->
+    <div class="container contenido">
+        <div class="row">
+          <!-- Noticias -->
+          <div class="col-xs-12 col-md-8">
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <div class="thumbnail">
+                  <h3>Los Rodillones de Montelíbano Golearon a Los Barriga Pelúa de La Apartada</h3>
+                  <a href="https://www.w3schools.com/w3images/lights.jpg" target="_blank">
+                  <img class="img-responsive" src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+                    <div class="caption">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="thumbnail">
+                  <h3>Los Rodillones de Montelíbano llegaron a su cuarta victoria en línea y mantienen su invicto</h3>
+                  <a href="https://www.w3schools.com/w3images/lights.jpg" target="_blank">
+                  <img class="img-responsive" src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+                    <div class="caption">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="thumbnail">
+                  <h3>Las estrellas están en el cielo</h3>
+                  <a href="https://www.w3schools.com/w3images/lights.jpg" target="_blank">
+                  <img class="img-responsive" src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+                    <div class="caption">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="thumbnail">
+                  <h3>Las estrellas están en el cielo</h3>
+                  <a href="https://www.w3schools.com/w3images/lights.jpg" target="_blank">
+                  <img class="img-responsive" src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+                    <div class="caption">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="thumbnail">
+                  <h3>Las estrellas están en el cielo</h3>
+                  <a href="https://www.w3schools.com/w3images/lights.jpg" target="_blank">
+                  <img class="img-responsive" src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+                    <div class="caption">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="thumbnail">
+                  <h3>Las estrellas están en el cielo</h3>
+                  <a href="https://www.w3schools.com/w3images/lights.jpg" target="_blank">
+                  <img class="img-responsive" src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+                    <div class="caption">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="thumbnail">
+                  <h3>Las estrellas están en el cielo</h3>
+                  <a href="https://www.w3schools.com/w3images/lights.jpg" target="_blank">
+                  <img class="img-responsive" src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+                    <div class="caption">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Paneles -->
+          <div class="col-xs-12 col-md-4">
+            <div class="row">
+
+              <!-- Panel de posiciones -->
+              <div class="col-lg-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3>Posiciones</h3>
+                  </div>
+                  <div class="panel-body">
+                    <table class="table table-striped">
+                      <thead>
+                        <th>Pos</th>
+                        <th>Equipo</th>
+                        <th>Pts</th>
+                        <th>Pj</th>
+                        <th>PG</th>
+                        <th>PE</th>
+                        <th>PP</th>
+                      </thead>
+                      <tbody>
+                        <td>1</td>
+                        <td>San Marcos</td>
+                        <td>12</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>0</td>
+                      </tbody>
+                      <tbody>
+                        <td>2</td>
+                        <td>Montelíbano</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                      </tbody>
+                      <tbody>
+                        <td>3</td>
+                        <td>La Apartada</td>
+                        <td>6</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>2</td>
+                      </tbody>
+                      <tbody>
+                        <td>4</td>
+                        <td>Buenavista</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>2</td>
+                      </tbody>
+                      <tbody>
+                        <td>5</td>
+                        <td>Ayapel</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>3</td>
+                      </tbody>
+                      <tbody>
+                        <td>6</td>
+                        <td>Caucasia</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="panel-footer">
+                    <p><i class="pull-right">27 de mayo del 2017</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panel de resultados -->
+              <div class="col-lg-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3>Resultados</h3>
+                  </div>
+                  <div class="panel-body">
+                    <table class="table table-responsive">
+                      <thead>
+                        <td colspan="3"><i class="pull-right">17 de mayo del 2017</i></td>
+                      </thead>
+                      <tbody>
+                        <td>La Apartada</td>
+                        <th>0 - 2</th>
+                        <td>Montelibano</td>
+                      </tbody>
+                      <tbody>
+                        <td>Ayapel</td>
+                        <th>1 - 2</th>
+                        <td>Buenavista</td>
+                      </tbody>
+                      <tbody>
+                        <td>San Marcos</td>
+                        <th>2 - 2</th>
+                        <td>Caucasia</td>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panel de goleadores -->
+              <div class="col-lg-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3>Goleadores</h3>
+                  </div>
+                  <div class="panel-body">
+                    <table class="table table-responsive table-bordered">
+                      <thead>
+                        <th>Pos</th>
+                        <th>Goleador</th>
+                        <th>Goles</th>
+                        <th>Equipo</th>
+                      </thead>
+                      <tbody>
+                        <td>1</td>
+                        <td>Carlos Cabarcas</td>
+                        <td>11</td>
+                        <td>San Marcos</td>
+                      </tbody>
+                      <tbody>
+                        <td>2</td>
+                        <td>Martín Elías</td>
+                        <td>9</td>
+                        <td>Buenavista</td>
+                      </tbody>
+                      <tbody>
+                        <td>3</td>
+                        <td>Miguel Morales</td>
+                        <td>9</td>
+                        <td>Caucasia</td>
+                      </tbody>
+                      <tbody>
+                        <td>4</td>
+                        <td>Jorge Cremades</td>
+                        <td>7</td>
+                        <td>San Marcos</td>
+                      </tbody>
+                      <tbody>
+                        <td>5</td>
+                        <td>Isidoro Rodríguez</td>
+                        <td>6</td>
+                        <td>Montelíbano</td>
+                      </tbody>
+                      <tbody>
+                        <td>6</td>
+                        <td>Cristian Ledesma</td>
+                        <td>3</td>
+                        <td>Ayapel</td>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panel de Facebook -->
+              <div class="col-lg-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3>Facebook</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div class="fb-page" data-href="https://www.facebook.com/ajedrezaltruista" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                      <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/facebook">Facebook</a>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panel de Twitter -->
+              <div class="col-lg-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3>Twitter</h3>
+                  </div>
+                  <div class="panel-body" style="height: 500px; overflow: scroll;">
+                    <a class="twitter-timeline" href="https://twitter.com/camiloledesma9">Tweets by camiloledesma9</a>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container myfooter">
+        <div class="row">
+          <div class="col-xs-6 col-md-3 col-md-offset-1">
+            <h2>Sobre Nosotros</h2>
+            <div class="col-xs-offset-1">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-3 col-md-offset-1">
+            <h2>Siguenos en:</h2>
+            <div class="col-xs-offset-2">
+              <ul class="list-unstyled">
+                <li>Facebook</li>
+                <li>Twitter</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-2 col-md-offset-1">
+            <h2>Navegación</h2>
+            <div class="col-xs-offset-1">
+              <ul class="list-unstyled">
+                <li>Últimas Noticias</li>
+                <li>Partidos</li>
+                <li>Posiciones</li>
+                <li>Equipos</li>
+                <li>Historia</li>
+                <li>Sobre</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-offset-4">
+            Copyright (c) 2017 Copyright Holder All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
