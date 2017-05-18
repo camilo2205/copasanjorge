@@ -17,6 +17,10 @@ h1{
   text-align: justify;
 }
 
+.menu:hover{
+ background-color:  #eeebeb;
+}
+
 .navbar{
   border-radius: 0px;
   margin-bottom: 0px;

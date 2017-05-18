@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $(window).scroll(function() {
     if ($(document).scrollTop() > 10) {
       $("#encabezado").hide(1000);
